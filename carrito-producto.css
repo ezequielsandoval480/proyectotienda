@@ -1,0 +1,17 @@
+.carrito-producto img{
+width:20%;
+height: 200px;
+float:left;
+margin-left:none;
+
+}
+
+.carrito-producto span{
+margin-left:none;
+float:left;
+}
+
+.carrito-producto input{
+width:20%;
+height:0px;
+}

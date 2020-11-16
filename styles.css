@@ -1,0 +1,223 @@
+html{
+scroll-behavior: smooth;
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+img{
+padding:10px;
+}
+
+
+
+.icon-search{
+float:right;
+margin-top:-50px;
+margin-right: 20px;
+color:#01454f;
+}
+
+.icon-user{
+position:absolute;
+color:#01454f;
+margin:auto;
+margin-top:-50px; 
+margin-left: 150px;
+
+}
+
+
+
+
+
+
+ul input{
+float:right;
+margin:-60px 40px;
+font-size: 15px;
+}
+
+.ventana{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	color:#fff;
+	background: rgba(0,0,0,0.8);
+	top:0;
+	left:0;
+	display:none;
+	z-index: 100;
+
+}
+
+
+
+
+.form{
+width: 300px;
+height: 300px;
+padding:25px;
+background-color: #fff;
+color:#9c9c9c;
+top:50%;
+left:50%;
+position:absolute;
+margin-left: -175px;
+margin-top:-175px;
+font-family: open sans;
+z-index: 100;
+
+}
+
+ input{
+float:right;
+padding:10px;
+margin-top:0px;
+margin:10px 0;
+font-size: 15px;
+
+}
+
+input[type="submit"]{
+background: linear-gradient (#ffda63,#ffb940);
+color:#9c9c9c;
+opacity:0.8;
+cursor:pointer;
+border-radius:20px;
+margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+	opacity:1;
+}
+
+input[type="submit"]:active{
+	transform:scale(0.95);
+}
+
+
+h2{
+text-align: left;
+color:0,0,0,0.5;
+
+
+}
+
+.cerrar{
+color:#9C9C9C;
+font-weight:900;
+text-align: right; 
+
+}
+
+
+
+.intro1{
+padding:50px;
+text-align: center;
+height: 650px;
+background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+font-family:open sans;
+font-size:80px;
+color:rgba(50,130,102,.7);
+position:relative;
+animation-name:title1;
+animation-duration:2s;
+opacity:0;
+animation-fill-mode: forwards;
+animation-delay:2s;
+z-index: 1;
+
+}
+
+.intro2{
+text-align: center;
+font-family:open sans;
+font-size:30px;
+color:rgba(50,130,102,.7);
+position:relative;
+animation-name:title3;
+animation-duration:2s;
+opacity:0;
+animation-fill-mode: forwards;
+animation-delay:4s;
+z-index: 1;
+
+}
+
+.intro3{
+padding:50px;
+text-align: center;
+height: 590px;
+background-image: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);
+font-family:open sans;
+font-size:80px;
+position:relative;
+color:#fff;
+animation-name:title1;
+animation-duration:2s;
+opacity:0;
+animation-fill-mode: forwards;
+animation-delay:2s;
+z-index:1;
+
+}
+
+.intro4{
+text-align: center;
+font-family:open sans;
+font-size:30px;
+color:#fff;
+position:relative;
+animation-name:title3;
+animation-duration:2s;
+opacity:0;
+animation-fill-mode: forwards;
+animation-delay:4s;
+z-index: 1;
+
+}
+
+.intro5{
+font-size:20px;
+text-decoration: none;
+position:relative;
+z-index: 1;
+}
+
+
+
+.redes{
+width:20px
+position:right;
+padding:30px;
+text-decoration:none;
+z-index: 1;
+
+
+}
+
+.redes li{
+list-style:none;
+text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

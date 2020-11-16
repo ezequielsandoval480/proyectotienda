@@ -1,0 +1,16 @@
+.sesion{
+margin:20px;
+font-family:arial;
+}
+
+
+
+table,td, tr{
+border: 1px solid grey;
+border-color: #9c9c9c;
+ border-collapse: collapse;
+ text-align: center;
+ font-family:arial;
+ margin:20px;
+}
+
