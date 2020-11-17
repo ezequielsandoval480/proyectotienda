@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Categorias</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="style.css">
@@ -23,8 +23,6 @@
     </ul> 
 
  
-
-
 
 </head>
 
