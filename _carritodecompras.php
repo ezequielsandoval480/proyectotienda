@@ -12,6 +12,7 @@ include("conexion.php");
 // }
 
 // Lo de arriba se puede poner asi
+ 
 $sesion = (isset($_SESSION['proyecto tienda online'])) ? true : false;
 
 if($sesion){
@@ -117,10 +118,11 @@ if($sesion && count($productos) > 0){
 // 		<h3><span class="subtotal"><?php echo $datos[$i]['precio']*$datos[$i]['Cantidad']?></span></h3>
 
 
-		
+<?php // la clase "eliminar" se ubica en scripts.php ?>
 // 		<a href="" class="eliminar" data-id="<?php echo $datos[$i]['Id']?>">
 // 			Eliminar
 // 		</a>
+
 		  
 //       </ul>
 
@@ -139,7 +141,7 @@ if($sesion && count($productos) > 0){
 // 	}
 // 	echo '<center><h2></h2></center>';
 //    if($total!=0){
-//    echo '<center><button><a href="compras.php" class="btn btn-primary btn sm" >Enviar</button></a></center>';
+//    echo '<center><button><a href="compras.php" class="btn btn-primary btn sm" >Enviar</button></a></center>';  ESTO DIRIGE A COMPRAS.PHP 
 // }
 
 

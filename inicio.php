@@ -1,7 +1,9 @@
 <?php  
 include("estructura/cabecera.php");
-//se establece la cabecera del menu 
+//se establece la cabecera del menu
  ?>
+
+
 <section class="intro1" id="Section1"><center><span class="icon-home"></span></center>Bienvenidos 
 	
 <section class="intro2">

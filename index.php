@@ -1,10 +1,8 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Index</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="menu.css">
@@ -20,6 +18,7 @@
 <section class="sesion">
  
 <?php 
+//se realiza la conexión con el localhost
 include"conexion.php";
 $re=$cn->query("select * from comprass") or die();
 while ($f=$re->fetch_array())
@@ -29,11 +28,13 @@ while ($f=$re->fetch_array())
 	<center>
 		<img src="./productos/<?php echo $f['imagen'];?>"><br>	
 		<span><?php  echo $f['Nombre'];?></span><br>
-		<a href="categorias.php">ver</a>
+		<a href="categorias.php?id=<?php echo $f['id'];?>">ver</a>
 	  </center>
 	</div>
 
     <?php
+
+    //se direcciona a categorías.php (se ubica en las distintas marcas (mbenz,peugeot,etc))
   }
     
    ?>
