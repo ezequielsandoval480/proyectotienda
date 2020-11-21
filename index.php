@@ -19,7 +19,7 @@
  
 <?php 
 //se realiza la conexión con el localhost
-include"conexion.php";
+include ("conexion.php");
 $re=$cn->query("select * from comprass") or die();
 while ($f=$re->fetch_array())
 {

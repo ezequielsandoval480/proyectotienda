@@ -82,18 +82,6 @@ include("conexion.php");
 	<meta http-equiv="Content-type" content="text/html">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
    
-	<img src="mohe.png" alt="">
-	
-	<ul>
-	<a href="javascript:openVentana();"><span class="icon-user">Registrarse</span></a>
-	</ul>
-
-    <ul>
-	<a href=""><span class="icon-search"></span>
-    <input type="text" name="" value=""></a>
-    </ul> 
-
-   
 
 </head>
 
